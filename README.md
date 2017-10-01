@@ -16,4 +16,5 @@ If you want to find out more how this model works and on which data it was train
   
 ### Examples
 I won't show any NSFW examples for obvious reasons.
-<img src="Images/screenshot_sfw.png" align="left" width="160">
+
+<img src="Images/screenshot_sfw.png" width="160">
