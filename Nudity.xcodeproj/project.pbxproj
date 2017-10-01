@@ -12,7 +12,7 @@
 		25E8C9D71F80FED20052A3DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25E8C9D51F80FED20052A3DE /* Main.storyboard */; };
 		25E8C9D91F80FED20052A3DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25E8C9D81F80FED20052A3DE /* Assets.xcassets */; };
 		25E8C9DC1F80FED20052A3DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25E8C9DA1F80FED20052A3DE /* LaunchScreen.storyboard */; };
-		25E8C9E41F80FF730052A3DE /* Nudity.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 25E8C9E31F80FF6D0052A3DE /* Nudity.mlmodel */; };
+		25E8C9E61F810AA60052A3DE /* Nudity.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 25E8C9E51F810AA00052A3DE /* Nudity.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		25E8C9D81F80FED20052A3DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25E8C9DB1F80FED20052A3DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25E8C9DD1F80FED20052A3DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		25E8C9E31F80FF6D0052A3DE /* Nudity.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Nudity.mlmodel; path = ../../Convert/Nudity.mlmodel; sourceTree = "<group>"; };
+		25E8C9E51F810AA00052A3DE /* Nudity.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Nudity.mlmodel; path = Convert/Nudity.mlmodel; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 		25E8C9D01F80FED20052A3DE /* Nudity */ = {
 			isa = PBXGroup;
 			children = (
-				25E8C9E31F80FF6D0052A3DE /* Nudity.mlmodel */,
+				25E8C9E51F810AA00052A3DE /* Nudity.mlmodel */,
 				25E8C9D11F80FED20052A3DE /* AppDelegate.swift */,
 				25E8C9D31F80FED20052A3DE /* ViewController.swift */,
 				25E8C9D51F80FED20052A3DE /* Main.storyboard */,
@@ -140,7 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25E8C9D41F80FED20052A3DE /* ViewController.swift in Sources */,
-				25E8C9E41F80FF730052A3DE /* Nudity.mlmodel in Sources */,
+				25E8C9E61F810AA60052A3DE /* Nudity.mlmodel in Sources */,
 				25E8C9D21F80FED20052A3DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
