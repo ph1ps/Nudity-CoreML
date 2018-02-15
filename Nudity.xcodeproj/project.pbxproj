@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		253087DC2035FE19008F89B4 /* UIImage+PixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253087DB2035FE19008F89B4 /* UIImage+PixelBuffer.swift */; };
 		25E8C9D21F80FED20052A3DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E8C9D11F80FED20052A3DE /* AppDelegate.swift */; };
 		25E8C9D41F80FED20052A3DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E8C9D31F80FED20052A3DE /* ViewController.swift */; };
 		25E8C9D71F80FED20052A3DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25E8C9D51F80FED20052A3DE /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		253087DB2035FE19008F89B4 /* UIImage+PixelBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+PixelBuffer.swift"; sourceTree = "<group>"; };
 		25E8C9CE1F80FED20052A3DE /* Nudity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nudity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25E8C9D11F80FED20052A3DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25E8C9D31F80FED20052A3DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				25E8C9E51F810AA00052A3DE /* Nudity.mlmodel */,
+				253087DB2035FE19008F89B4 /* UIImage+PixelBuffer.swift */,
 				25E8C9D11F80FED20052A3DE /* AppDelegate.swift */,
 				25E8C9D31F80FED20052A3DE /* ViewController.swift */,
 				25E8C9D51F80FED20052A3DE /* Main.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				253087DC2035FE19008F89B4 /* UIImage+PixelBuffer.swift in Sources */,
 				25E8C9D41F80FED20052A3DE /* ViewController.swift in Sources */,
 				25E8C9E61F810AA60052A3DE /* Nudity.mlmodel in Sources */,
 				25E8C9D21F80FED20052A3DE /* AppDelegate.swift in Sources */,
@@ -282,7 +286,7 @@
 				DEVELOPMENT_TEAM = Q5MZT8NG66;
 				INFOPLIST_FILE = Nudity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.gbrl.Nudity;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gbrl.NSFW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,7 +301,7 @@
 				DEVELOPMENT_TEAM = Q5MZT8NG66;
 				INFOPLIST_FILE = Nudity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.gbrl.Nudity;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gbrl.NSFW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
